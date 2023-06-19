@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     box-shadow: black 0.5;
     background: url(gb/bg1.png);
@@ -57,7 +56,7 @@ body {
     margin-top: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -307,9 +306,19 @@ body {
     font-size: 14px;
 }
 
-.kontak h5 {
+.kontak p {
     font-weight: 400px;
     font-size: 12px;
+}
+
+.kontak p::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 50%;
+    left: 445px;
+    bottom: 70px;
 }
 
 
