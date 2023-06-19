@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(gb/bg1.png);
+    background: url(gb/background.png);
     height: 2000px;
 }
 
@@ -316,8 +316,8 @@ body {
     position: absolute;
     background-color: white;
     height: 3px;
-    width: 50%;
-    left: 445px;
+    width: 45%;
+    left: 520px;
     bottom: 70px;
 }
 
